@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Barking & Dagenham",
+    "slug": "barking-and-dagenham-38bf669b-5363-4c84-bac9-1066bf4d6b07",
+    "version": "1.0.0",
+    "privacy": "unlisted",
+    "sdkVersion": "48.0.0",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    // "splash": {
+    //   // "image": "./assets/splash.png",
+    //   "resizeMode": "contain",
+    //   "backgroundColor": "#ffffff"
+    // },
+    "updates": {
+      "enabled": false,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": [
+      "**/*",
+      "assets/*",
+      "assets/fonts/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.BarkingAndApp.adnanapp",
+      "versionCode": 1,
+      "icon": "./assets/icon.png",
+      // "adaptiveIcon": {
+      //   "foregroundImage": "./assets/adaptive-icon.png",
+      //   "backgroundColor": "#FFFFFF"
+      // }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "46c9ecd5-f487-4117-a6eb-563f28449c1e"
+      }
+    }
+  }
+}
